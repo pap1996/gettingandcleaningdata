@@ -2,6 +2,112 @@
 
 The output is a dataframe with the size 66 rows x 36 columns. The column names is the subject from 1 to 30 and the activity including `walking`, `walking_upstairs`, `walking_downstairs`, `sitting`, `standing`, `laying`. The row names is the measurements in terms of average values `Mean` and standard deviation values `Std`.
 
+Column names: 
+* `subject.1`
+`subject.2`
+`subject.3`
+`subject.4`
+`subject.5`
+`subject.6`
+`subject.7`
+`subject.8`
+`subject.9`
+`subject.10`
+`subject.11`
+`subject.12`
+`subject.13`
+`subject.14`
+`subject.15`
+`subject.16`
+`subject.17`
+`subject.18`
+`subject.19`
+`subject.20`
+`subject.21`
+`subject.22`
+`subject.23`
+`subject.24`
+`subject.25`
+`subject.26`
+`subject.27`
+`subject.28`
+`subject.29`
+`subject.30`
+`activity.laying`
+`activity.sitting`
+`activity.standing`
+`activity.walking`
+`activity.walking_downstairs`
+`activity.walking_upstairs`
+
+Row names: 
+* `tBodyAcc.Mean.X`
+`tBodyAcc.Mean.Y`
+`tBodyAcc.Mean.Z`
+`tBodyAcc.Std.X`
+`tBodyAcc.Std.Y`
+`tBodyAcc.Std.Z`
+`tGravityAcc.Mean.X`
+`tGravityAcc.Mean.Y`
+`tGravityAcc.Mean.Z`
+`tGravityAcc.Std.X`
+`tGravityAcc.Std.Y`
+`tGravityAcc.Std.Z`
+`tBodyAccJerk.Mean.X`
+`tBodyAccJerk.Mean.Y`
+`tBodyAccJerk.Mean.Z`
+`tBodyAccJerk.Std.X`
+`tBodyAccJerk.Std.Y`
+`tBodyAccJerk.Std.Z`
+`tBodyGyro.Mean.X`
+`tBodyGyro.Mean.Y`
+`tBodyGyro.Mean.Z`
+`tBodyGyro.Std.X`
+`tBodyGyro.Std.Y`
+`tBodyGyro.Std.Z`
+`tBodyGyroJerk.Mean.X`
+`tBodyGyroJerk.Mean.Y`
+`tBodyGyroJerk.Mean.Z`
+`tBodyGyroJerk.Std.X`
+`tBodyGyroJerk.Std.Y`
+`tBodyGyroJerk.Std.Z`
+`tBodyAccMag.Mean`
+`tBodyAccMag.Std`
+`tGravityAccMag.Mean`
+`tGravityAccMag.Std`
+`tBodyAccJerkMag.Mean`
+`tBodyAccJerkMag.Std`
+`tBodyGyroMag.Mean`
+`tBodyGyroMag.Std`
+`tBodyGyroJerkMag.Mean`
+`tBodyGyroJerkMag.Std`
+`fBodyAcc.Mean.X`
+`fBodyAcc.Mean.Y`
+`fBodyAcc.Mean.Z`
+`fBodyAcc.Std.X`
+`fBodyAcc.Std.Y`
+`fBodyAcc.Std.Z`
+`fBodyAccJerk.Mean.X`
+`fBodyAccJerk.Mean.Y`
+`fBodyAccJerk.Mean.Z`
+`fBodyAccJerk.Std.X`
+`fBodyAccJerk.Std.Y`
+`fBodyAccJerk.Std.Z`
+`fBodyGyro.Mean.X`
+`fBodyGyro.Mean.Y`
+`fBodyGyro.Mean.Z`
+`fBodyGyro.Std.X`
+`fBodyGyro.Std.Y`
+`fBodyGyro.Std.Z`
+`fBodyAccMag.Mean`
+`fBodyAccMag.Std`
+`fBodyAccJerkMag.Mean`
+`fBodyAccJerkMag.Std`
+`fBodyGyroMag.Mean`
+`fBodyGyroMag.Std`
+`fBodyGyroJerkMag.Mean`
+`fBodyGyroJerkMag.Std`
+
 Hereunder is the process to work out the above-mentioned output:
 
 <b>`STEP 1`</b> Download dataset and unzip the file
