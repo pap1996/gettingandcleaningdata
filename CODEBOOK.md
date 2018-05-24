@@ -22,6 +22,6 @@ For example, `1` stands for `walking`, so I replace `1` with `walking`
 
 <b>`STEP 7`</b> Modify the names of column in `dataset_extracted`
 
-For example, after <b>`STEP 6`</b>, the name of such a column will be like `fBodyGyro-mean()-Y`. I will modify into `fBodyGyro.Mean.Y`. Some column names have repeated strings of characters such as `fBodyBodyGyroJerkMag-mean()`, which are changed into something like that `fBodyGyroJerkMag.Mean`'
+For example, after <b>`STEP 6`</b>, the name of such a column will be like `fBodyGyro-mean()-Y`. I will modify into `fBodyGyro.Mean.Y`. Some column names have repeated strings of characters such as `fBodyBodyGyroJerkMag-mean()`, which are changed into something like that `fBodyGyroJerkMag.Mean`
 
 <b>`STEP 8`</b> Make `dataset_step5` to calculate the average of each measurement for each activity and each subject, then write into `DATA.txt`
