@@ -16,4 +16,4 @@ Hereunder is the requirements:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-My output is a dataframe show the average MEAN and STD of each measurement for each subject and activity. You can find out more about the process I work out the result in `"codebook.md"` in the same repository.
+My output is a dataframe show the average MEAN and STD of each measurement for each subject and activity. It is written into `DATA.txt` and you can find out more about the process I work out the result in `"codebook.md"` in the same repository.
